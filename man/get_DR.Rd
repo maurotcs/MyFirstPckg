@@ -20,10 +20,11 @@ From the SM of Jetz et al. 2012: The ES measure for a
 focal tip on a rooted bifurcating tree is the sum of the edge lengths from the
 species i to the root, with each consecutive edge discounted by a factor of
 1/2:
-   ES_i = sum_{j = 1}^{Ni} l_j * ( 1/2^(j-1) )
-Ni is the number of edges on the path from species i and the root, and lj is
-the length of the edge j, with j=1 being the pendant edge leading to the
-species and j=Ni being the edge nearest the root on that path. For a more
+   ES_i = sum_{j = 1}^{Ni} l_j * ( 1/2^(j-1) ),
+
+where N_i is the number of edges on the path from species i and the root, and
+l_j is the length of the edge j, with j=1 being the pendant edge leading to the
+species and j=N_i being the edge nearest the root on that path. For a more
 general equation for non-bifurcating trees, see Redding et al. (2008). The
 inverse of this measure can be seen as a measure of the splitting rate of the
 path to a tip: species in rapidly-diversifying clades will have short edge

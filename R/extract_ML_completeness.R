@@ -7,9 +7,7 @@
 #'  last occurrence, relative to the modern. If it's a list, it'll try to
 #'  extract the matrix from the second entry.
 #'
-#' @details Runs the analysis of the fossil record completeness developed by:
-#'
-#' @return a numeric vector with the DR estimated for each tip
+#' @return a list with the output from 'optim' function
 #'
 #' @author Mauro TC Sugawara, based on David W. Bapst make_durationFreq* functions
 #'  from paleotree
@@ -33,6 +31,9 @@
 #' ifelse(is.finite(x), x, NA)))
 #' res = extract_ML_completeness(FR)
 #' res$par
+#'
+#' @export
+#' @import paleotree
 extract_ML_completeness = function(fr) {
   if (inherits(fr, "list")) {
     fr = try(fr[[2]])

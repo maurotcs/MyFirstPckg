@@ -13,14 +13,11 @@ last occurrence, relative to the modern. If it's a list, it'll try to
 extract the matrix from the second entry.}
 }
 \value{
-a numeric vector with the DR estimated for each tip
+a list with the output from 'optim' function
 }
 \description{
 Fits the Maximum Likelihood method to estimate completeness of the fossil record
 developed by Foote.
-}
-\details{
-Runs the analysis of the fossil record completeness developed by:
 }
 \examples{
 set.seed(666)
@@ -37,6 +34,7 @@ FR = t(apply(firstlast, MARGIN = 2, function(x)
 ifelse(is.finite(x), x, NA)))
 res = extract_ML_completeness(FR)
 res$par
+
 }
 \references{
 Foote, M. 1997. Paleobiology 23(3):278–300.

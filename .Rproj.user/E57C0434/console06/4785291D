@@ -1,3 +1,49 @@
-]0;~/Dropbox/PhD/courses/PBDB_2018_Florida/MauroFirstPckg[?1034hMauros-MacBook-Pro:MauroFirstPckg mauro$ [KMauros-MacBook-Pro:MauroFirstPckg mauro$ git init
-Initialized empty Git repository in /Users/mauro/Dropbox/PhD/courses/PBDB_2018_Florida/MauroFirstPckg/.git/
+git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/E57C0434/console06/4785291D[m
+	[31mmodified:   .Rproj.user/E57C0434/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/E57C0434/pcs/files-pane.pper[m
+	[31mmodified:   .Rproj.user/E57C0434/pcs/source-pane.pper[m
+	[31mmodified:   .Rproj.user/E57C0434/pcs/windowlayoutstate.pper[m
+	[31mmodified:   .Rproj.user/E57C0434/persistent-state[m
+	[31mmodified:   .Rproj.user/E57C0434/sources/prop/6C9DAD39[m
+	[31mmodified:   .Rproj.user/E57C0434/sources/prop/B0EADD4D[m
+	[31mmodified:   .Rproj.user/E57C0434/sources/prop/INDEX[m
+	[31mdeleted:    .Rproj.user/E57C0434/sources/s-866A8BAF/138E938F[m
+	[31mdeleted:    .Rproj.user/E57C0434/sources/s-866A8BAF/138E938F-contents[m
+	[31mdeleted:    .Rproj.user/E57C0434/sources/s-866A8BAF/3527FAB2-contents[m
+	[31mdeleted:    .Rproj.user/E57C0434/sources/s-866A8BAF/8C666D72[m
+	[31mdeleted:    .Rproj.user/E57C0434/sources/s-866A8BAF/8C666D72-contents[m
+	[31mdeleted:    .Rproj.user/E57C0434/sources/s-866A8BAF/B8886971[m
+	[31mdeleted:    .Rproj.user/E57C0434/sources/s-866A8BAF/B8886971-contents[m
+	[31mdeleted:    .Rproj.user/E57C0434/sources/s-866A8BAF/F91EABBF[m
+	[31mdeleted:    .Rproj.user/E57C0434/sources/s-866A8BAF/F91EABBF-contents[m
+	[31mdeleted:    .Rproj.user/E57C0434/sources/s-866A8BAF/lock_file[m
+	[31mmodified:   .Rproj.user/shared/notebooks/paths[m
+	[31mmodified:   NAMESPACE[m
+	[31mmodified:   R/extract_ML_completeness.R[m
+	[31mmodified:   R/get_DR.R[m
+	[31mmodified:   man/extract_ML_completeness.Rd[m
+	[31mmodified:   man/get_DR.Rd[m
+	[31mmodified:   packrat/lib/x86_64-apple-darwin15.6.0/3.5.1/MauroFirstPckg/DESCRIPTION[m
+	[31mmodified:   packrat/lib/x86_64-apple-darwin15.6.0/3.5.1/MauroFirstPckg/Meta/nsInfo.rds[m
+	[31mmodified:   packrat/lib/x86_64-apple-darwin15.6.0/3.5.1/MauroFirstPckg/Meta/package.rds[m
+	[31mmodified:   packrat/lib/x86_64-apple-darwin15.6.0/3.5.1/MauroFirstPckg/NAMESPACE[m
+	[31mmodified:   packrat/lib/x86_64-apple-darwin15.6.0/3.5.1/MauroFirstPckg/R/MauroFirstPckg.rdb[m
+	[31mmodified:   packrat/lib/x86_64-apple-darwin15.6.0/3.5.1/MauroFirstPckg/R/MauroFirstPckg.rdx[m
+	[31mmodified:   packrat/lib/x86_64-apple-darwin15.6.0/3.5.1/MauroFirstPckg/help/MauroFirstPckg.rdb[m
+	[31mmodified:   packrat/lib/x86_64-apple-darwin15.6.0/3.5.1/MauroFirstPckg/help/MauroFirstPckg.rdx[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.gitignore[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
 ]0;~/Dropbox/PhD/courses/PBDB_2018_Florida/MauroFirstPckgMauros-MacBook-Pro:MauroFirstPckg mauro$ git add .
