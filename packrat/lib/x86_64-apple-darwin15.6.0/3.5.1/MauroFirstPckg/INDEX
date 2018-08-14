@@ -1,0 +1,7 @@
+Get_Path                Auxiliary functions for get_DR.
+extract_ML_completeness
+                        Fits the Maximum Likelihood method to estimate
+                        completeness of the fossil record developed by
+                        Foote.
+get_DR                  Estimates DR statistics
+hello                   Hello, World!

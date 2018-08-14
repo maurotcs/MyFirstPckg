@@ -1,0 +1,136 @@
+DiversityCurves         Diversity Curves
+RaiaCopesRule           Dated Trees and Trait Data for Ammonites,
+                        Ceratopsians and Cervids from Raia et al. 2015
+SamplingConv            Converting Sampling Estimates
+SongZhangDicrano        Cladistic Data for Dicranograptid Graptolites
+                        from Song and Zhang (2014)
+binTimeData             Bin Simulated Temporal Ranges in Discrete
+                        Intervals
+branchClasses           Partitions the branch lengths of a tree into
+                        several classes based on their placement.
+cal3TimePaleoPhy        Three Rate Calibrated 'a posteriori'
+                        Time-Scaling of Paleo-Phylogenies
+cladogeneticTraitCont   Simulate Cladogenetic Trait Evolution
+communityEcology        Miscellaneous Functions for Community Ecology
+compareTimescaling      Comparing the Time-Scaling of Trees
+constrainParPaleo       Constrain Parameters for a Model Function from
+                        paleotree
+createMrBayesConstraints
+                        Transform a Topology into a Set of Constraint
+                        Commands for MrBayes
+createMrBayesTipCalibrations
+                        Construct A Block of Tip Age Calibrations for
+                        Use with Tip-Dating Analyses in MrBayes
+createMrBayesTipDatingNexus
+                        Construct a Fully Formatted NEXUS Script for
+                        Performing Tip-Dating Analyses With MrBayes
+dateNodes               Absolute Dates for Nodes of a Time-Scaled
+                        Phylogeny
+degradeTree             Randomly Collapse a Portion of Nodes on a
+                        Phylogeny
+depthRainbow            Paint Tree Branch Depth by Color
+divCurveFossilRecordSim
+                        Diversity-Curve Plotting for Simulations of
+                        Diversification and Sampling In the Fossil
+                        Record
+durationFreq            Models of Sampling and Extinction for Taxonomic
+                        Duration Datasets
+equation2function       Turn a Character String of the Right-Hand Side
+                        of an Equation into an R Function
+exhaustionFunctions     Analyses of the exhaustion of Character States
+                        Over Evolutionary History
+expandTaxonTree         Extrapolating Lower-Level Taxon Phylogenies
+                        from Higher-Level Taxon Trees
+footeValues             Calculates Values for Foote's Inverse
+                        Survivorship Analyses
+freqRat                 Frequency Ratio Method for Estimating Sampling
+                        Probability
+graptDisparity          Morphlogical Character and Range Data for late
+                        Ordovician and Early Silurian Graptoloidea
+graptPBDB               Example Occurrence and Taxonomic Datasets of
+                        the Graptolithina from the Paleobiology
+                        Database
+horizonSampRate         Estimate Sampling Rate from Sampling Horizon
+                        Data (Solow and Smith, 1997)
+inverseSurv             Inverse Survivorship Models in the Fossil
+                        Record
+kanto                   Example Species Abundances Tables
+macroperforateForam     Ancestor-Descendant Relationships for
+                        Macroperforate Foraminifera, from Aze et al.
+                        (2011)
+makePBDBtaxonTree       Creating a Taxon-Tree from Taxonomic Data
+                        Downloaded from the Paleobiology Database
+minBranchLength         Scales Edge Lengths of a Phylogeny to a Minimum
+                        Branch Length
+minCharChange           Estimating the Minimum Number of Character
+                        Transitions Using Maximum Parsimony
+modelMethods            Model Function Methods: Parameter Names, Bounds
+                        and Initial Values
+modifyTerminalBranches
+                        Modify, Drop or Bind Terminal Branches of
+                        Various Types (Mainly for Paleontological
+                        Phylogenies)
+multiDiv                Calculating Diversity Curves Across Multiple
+                        Datasets
+nearestNeighborDist     Nearest Neighbor Distances for Morphological
+                        Disparity Studies
+nodeDates2branchLengths
+                        Obtaining Edge Lengths for Undated Phylogenies
+                        Using Known Branching Node and Tip Ages
+obtainDatedPosteriorTreesMrB
+                        Get the Sample of Posterior Trees from a Dated
+                        Phylogenetic Analysis with MrBayes (Or a
+                        Summary Tree, such as the MCCT)
+occData2timeList        Converting Occurrences Data to a timeList Data
+                        Object
+optimPaleo              Simplified Optimizer for paleotree Likelihood
+                        Functions
+paleotree-package       paleotree: Paleontological and Phylogenetic
+                        Analyses of Evolution
+parentChild2taxonTree   Create a Taxonomy-Based Phylogeny ('Taxon
+                        Tree') from a Table of Parent-Child Taxon
+                        Relationships
+perCapitaRates          perCapitaRates
+perfectParsCharTree     Simulate a Set of Parsimony-Informative
+                        Characters for a Phylogeny
+plotOccData             Plotting Occurrence Data Across Taxa
+plotTraitgram           Plot a Traitgram for Continuous Traits
+pqr2Ps                  Joint Probability of A Clade Surviving
+                        Infinitely or Being Sampled Once
+probAnc                 Probability of being a sampled ancestor of
+                        another sampled taxon
+resolveTreeChar         Resolve Polytomies Using Parsimony-Based
+                        Reconstruction of a Discrete Character
+retiolitinae            Cladogram and Range Data for the Retiolitinae
+reverseList             Reverse List Structure
+rootSplit               Split Tip Taxa by Root Divergence
+sampleRanges            Sampling Taxon Ranges
+seqTimeList             Construct a Stochastic Sequenced Time-List from
+                        an Unsequenced Time-List
+setRootAge              Place a Non-Ultrametric Tree of Fossil Taxa on
+                        Absolute Time
+simFossilRecord         Full-Scale Simulations of the Fossil Record
+                        with Birth, Death and Sampling of Morphotaxa
+simFossilRecordMethods
+                        Methods for Editing or Converting Output from
+                        simFossilRecord
+taxa2cladogram          Convert Simulated Taxon Data into a Cladogram
+taxa2phylo              Convert Simulated Taxon Data into a Phylogeny
+taxonSortPBDBocc        Sorting Unique Taxa of a Given Rank from
+                        Paleobiology Database Occurrence Data
+taxonTable2taxonTree    Create a Taxonomy-Based Phylogeny ('Taxon
+                        Tree') from a Hierarchical Table of Taxonomy
+                        Memberships
+termTaxa                Simulating Extinct Clades of Monophyletic Taxa
+testEdgeMat             Test the Edge Matrix of a 'phylo' Phylogeny
+                        Object for Inconsistencies
+timeLadderTree          Resolve Polytomies by Order of First Appearance
+timeList2fourDate       Converting Datasets of Taxon Ranges in
+                        Intervals Between timeList format and fourDate
+                        format
+timePaleoPhy            Typical 'a posteriori' Time-Scaling Approaches
+                        For Paleontological Phylogenies
+timeSliceTree           Time-Slicing a Phylogeny
+treeContradiction       Measure the Contradiction Difference Between
+                        Two Phylogenetic Topologies
+unitLengthTree          Scale Tree to Unit-Length
